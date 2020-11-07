@@ -1,13 +1,16 @@
+/* Sets the standard for all elements */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Sets standard background color for all body elements */
 body {
     background-color: #d9dcd6;
 }
 
+/* the following css sets the style for the header, logo, and the letters in the logo */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,6 +27,7 @@ body {
     color: #d9dcd6;
 }
 
+/* the following css sets how the nav links are displayed */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -41,15 +45,18 @@ body {
     margin-left: 25px;
 }
 
+/* all anchor tags are to be this color with no underlines */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* sets paragraph size */
 p {
     font-size: 16px;
 }
 
+/* sets background image */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +66,26 @@ p {
     background-position: center;
 }
 
+/* floats the element to the left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* floats the element to the right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* sets the main content */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* the following css sets the aside column and how it displays */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -102,6 +113,7 @@ p {
     max-width: 150px;
 }
 
+/* the following css sets how the main content is displayed */
 .main-section {
     margin-bottom: 20px;
     padding: 50px;
@@ -120,6 +132,7 @@ p {
     font-size: 36px;
 }
 
+/* the following css sets how the footer, license, and copyright is displayed */
 .footer {
     padding: 30px;
     clear: both;
